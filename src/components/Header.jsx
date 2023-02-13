@@ -27,19 +27,19 @@ export default function Header() {
           </div>
           <div>
             <ul className='flex space-x-8 ml-80'>
-                <li className={`cursor-pointer py-3 text-[#e4d295] text-md font-semibold border-b-transparent ${matchRoute('/') && 'text-[#ecc84f]'}`}
+                <li className={`cursor-pointer py-3 text-[#e6c65f] text-md font-semibold border-b-transparent hover:text-[#a9881c] ${matchRoute('/') }`}
                     onClick={()=>navigate('/home')}
                 >Home </li>
-                <li className={`cursor-pointer py-3 text-[#e4d295] text-md font-semibold border-b-transparent ${matchRoute('/Explore') && 'text-[#ecc84f]'}`}
+                <li className={`cursor-pointer py-3 text-[#e6c65f] text-md font-semibold border-b-transparent hover:text-[#a9881c] ${matchRoute('/Explore') && 'text-[#ecc84f]'}`}
                     onClick={()=>navigate('/explore')}
                 >Explore</li>
-                <li className={`cursor-pointer py-3 text-[#e4d295] text-md font-semibold border-b-transparent ${matchRoute('/Locations') && 'text-[#ecc84f]'}`}
+                <li className={`cursor-pointer py-3 text-[#e6c65f] text-md font-semibold border-b-transparent hover:text-[#a9881c] ${matchRoute('/Locations') && 'text-[#ecc84f]'}`}
                     onClick={()=>navigate('/locations')}
                 >Locations</li>
-                <li className={`cursor-pointer py-3 text-[#e4d295] text-md font-semibold border-b-transparent ${matchRoute('/More') && 'text-[#ecc84f]'}`}
+                <li className={`cursor-pointer py-3 text-[#e6c65f] text-md font-semibold border-b-transparent hover:text-[#a9881c] ${matchRoute('/More') && 'text-[#ecc84f]'}`}
                     onClick={()=>navigate('/more')}
                 >More </li>
-                <li className={`cursor-pointer py-3 text-[#e4d295] text-md font-semibold border-b-transparent ${matchRoute('/Support') && 'text-[#ecc84f]'}`}
+                <li className={`cursor-pointer py-3 text-[#e6c65f] text-md font-semibold border-b-transparent hover:text-[#a9881c] ${matchRoute('/Support') && 'text-[#ecc84f]'}`}
                     onClick={()=>navigate('/support')}
                 >Support </li>
             </ul>
@@ -61,7 +61,7 @@ export default function Header() {
                   </button>
                 </div>
                 <div>
-                  <button className='py-2 px-5 text-gray-600 bg-white rounded-full font-semibold flex items-center hover:bg-gray-300'
+                  <button className='py-2 px-5 text-white border-white border-2 bg-cyan-900 rounded-full font-semibold flex items-center hover:bg-white hover:text-black'
                   >
                     <FiPhone className='mr-2'/>
                     Call Us

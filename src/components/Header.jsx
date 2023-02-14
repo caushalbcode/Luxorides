@@ -3,6 +3,7 @@ import {useLocation,useNavigate} from 'react-router-dom'
 import {ImWhatsapp} from 'react-icons/im'
 import {TbBulb} from 'react-icons/tb'
 import {FiPhone} from 'react-icons/fi'
+import {RiArrowDownSFill} from 'react-icons/ri'
 
 export default function Header() {
 
@@ -15,7 +16,7 @@ export default function Header() {
     }
   }
   return (
-    <div className='border-b-2 shodow-sm sticky top-0 z-50  bg-cyan-900'>
+    <div className='shodow-sm sticky top-0 z-50 bg-[#073b4c]'>
         <header className='flex items-center space-x-4'>
           <div>
               <img
@@ -26,26 +27,33 @@ export default function Header() {
               />
           </div>
           <div>
-            <ul className='flex space-x-8 ml-80'>
+            <ul className='flex space-x-6 ml-80'>
                 <li className={`cursor-pointer py-3 text-[#e6c65f] text-md font-semibold border-b-transparent hover:text-[#a9881c] ${matchRoute('/') }`}
                     onClick={()=>navigate('/home')}
                 >Home </li>
-                <li className={`cursor-pointer py-3 text-[#e6c65f] text-md font-semibold border-b-transparent hover:text-[#a9881c] ${matchRoute('/Explore') && 'text-[#ecc84f]'}`}
+                <li className={`flex cursor-pointer py-3 text-[#e6c65f] text-md font-semibold border-b-transparent hover:text-[#a9881c] ${matchRoute('/Explore') && 'text-[#ecc84f]'}`}
                     onClick={()=>navigate('/explore')}
-                >Explore</li>
-                <li className={`cursor-pointer py-3 text-[#e6c65f] text-md font-semibold border-b-transparent hover:text-[#a9881c] ${matchRoute('/Locations') && 'text-[#ecc84f]'}`}
+                >Explore
+                <RiArrowDownSFill className='text-2xl hover:text-[#a9881c]'/>
+                </li>
+                <li className={`flex cursor-pointer py-3 text-[#e6c65f] text-md font-semibold border-b-transparent hover:text-[#a9881c] ${matchRoute('/Locations') && 'text-[#ecc84f]'}`}
                     onClick={()=>navigate('/locations')}
-                >Locations</li>
-                <li className={`cursor-pointer py-3 text-[#e6c65f] text-md font-semibold border-b-transparent hover:text-[#a9881c] ${matchRoute('/More') && 'text-[#ecc84f]'}`}
-                    onClick={()=>navigate('/more')}
-                >More </li>
+                >Locations
+                <RiArrowDownSFill className='text-2xl hover:text-[#a9881c]'/>
+                </li>
                 <li className={`cursor-pointer py-3 text-[#e6c65f] text-md font-semibold border-b-transparent hover:text-[#a9881c] ${matchRoute('/Support') && 'text-[#ecc84f]'}`}
                     onClick={()=>navigate('/support')}
                 >Support </li>
+                <li className={`flex cursor-pointer py-3 text-[#e6c65f] text-md font-semibold border-b-transparent hover:text-[#a9881c] ${matchRoute('/More') && 'text-[#ecc84f]'}`}
+                    onClick={()=>navigate('/more')}
+                >More
+                <RiArrowDownSFill className='text-2xl hover:text-[#a9881c]'/>
+                </li>
+                
             </ul>
           </div>
 
-          <div className='flex space-x-6'>
+          <div className='flex space-x-4'>
                 <div>
                   <button className='py-2 px-5 text-gray-600 bg-white rounded-full font-semibold flex items-center hover:bg-gray-300' 
                   >
@@ -61,7 +69,7 @@ export default function Header() {
                   </button>
                 </div>
                 <div>
-                  <button className='py-2 px-5 text-white border-white border-2 bg-cyan-900 rounded-full font-semibold flex items-center hover:bg-white hover:text-black'
+                  <button className='py-2 px-5 text-white border-white border-2 bg-[#073b4c] rounded-full font-semibold flex items-center hover:bg-white hover:text-black'
                   >
                     <FiPhone className='mr-2'/>
                     Call Us

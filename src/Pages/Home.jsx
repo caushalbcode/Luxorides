@@ -150,7 +150,7 @@ export default function Home() {
       <div className='bg-[#073b4c] h-auto text-center'>
         <div className='flex justify-center space-x-10'>
           <div>
-              <button className='text-[#e6d9af] font-bold mt-10 py-5 hover:text-[#b1a374]'>
+              <button className='text-[#e6c65f] font-bold mt-10 py-5 hover:text-[#b1a374]'>
                   Dive In
               </button><br />
               <button className='text-white hover:text-gray-400'>Safety</button><br />
@@ -164,7 +164,7 @@ export default function Home() {
 
           </div>
           <div>
-              <button className='text-[#e6d9af] font-bold mt-10 py-5 hover:text-[#b1a374]'>
+              <button className='text-[#e6c65f] font-bold mt-10 py-5 hover:text-[#b1a374]'>
                   Categories
               </button><br />
               <button className='text-white hover:text-gray-400'>Rent Luxury Sedans</button><br />
@@ -179,7 +179,7 @@ export default function Home() {
           </div>
 
           <div>
-              <button className='text-[#e6d9af] font-bold mt-10 py-5 hover:text-[#b1a374]'>
+              <button className='text-[#e6c65f] font-bold mt-10 py-5 hover:text-[#b1a374]'>
                   Services
               </button><br />
               <button className='text-white hover:text-gray-400'>Wedding Cars</button><br />
@@ -194,7 +194,7 @@ export default function Home() {
           </div>
 
           <div>
-              <button className='text-[#e6d9af] font-bold mt-10 py-5 hover:text-[#b1a374]'>
+              <button className='text-[#e6c65f] font-bold mt-10 py-5 hover:text-[#b1a374]'>
                   Brands We Serve
               </button><br />
               <button className='text-white hover:text-gray-400'>Audi</button><br />
@@ -209,7 +209,7 @@ export default function Home() {
           </div>
 
           <div>
-              <button className='text-[#e6d9af] font-bold mt-10 py-5 hover:text-[#b1a374]'>
+              <button className='text-[#e6c65f] font-bold mt-10 py-5 hover:text-[#b1a374]'>
                   Top Choices
               </button><br />
               <button className='text-white hover:text-gray-400'>Audi A3 Convertible (Red)</button><br />
@@ -277,7 +277,7 @@ export default function Home() {
                     Contacts
                 </h2><br/>
                 <button className='text-gray-400 hover:text-gray-600'>contact@luxorides.in</button><br />
-                <button className='text-gray-400 hover:text-gray-600 py-5 font-extralight'>+91 9119004208</button><br />
+                <button className='text-gray-400 hover:text-gray-600 py-5 font-extralight'>+91 7818836390</button><br />
               </div>
 
           </div>

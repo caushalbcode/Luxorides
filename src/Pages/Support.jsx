@@ -1,8 +1,7 @@
 import React from 'react'
-import {ImWhatsapp} from 'react-icons/im'
 import {MdEmail} from 'react-icons/md'
 import {IoIosArrowDown} from 'react-icons/io'
-import { ImFacebook } from 'react-icons/im'
+import {ImWhatsapp, ImFacebook } from 'react-icons/im'
 import {BsInstagram, BsYoutube, BsPinterest, BsTwitter} from 'react-icons/bs'
 
 

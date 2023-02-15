@@ -1,7 +1,300 @@
 import React from 'react'
+import { ImFacebook } from 'react-icons/im'
+import {BsInstagram, BsYoutube, BsPinterest, BsTwitter} from 'react-icons/bs'
 
 export default function Explore() {
   return (
-    <div>Explore</div>
+    <section>
+      <div>
+        <img src='garage.jpg' alt='GarageImg'/>
+      </div>
+
+      <div >
+        <p className='text-2xl mt-40 font-light text-center'>
+          Luxorides offers you a wide range of vehicles to choose from!<br/>
+           Go on, Opt your favourite!
+        </p>
+        <div className='flex justify-center mt-6'>
+            <button className='m-4 py-3 px-14 text-lg flex items-center text-white bg-[#b1a374] rounded-full hover:bg-[#6c613c] hover:shadow-2xl'>Rent Convertibles</button>
+            <button className='m-4 py-3 px-14 text-lg flex items-center text-white bg-[#b1a374] rounded-full hover:bg-[#6c613c] hover:shadow-2xl'>Rent Luxury Sedans</button>
+            <button className='m-4 py-3 px-14 text-lg flex items-center text-white bg-[#b1a374] rounded-full hover:bg-[#6c613c] hover:shadow-2xl'>Rent Luxury SUVs</button>
+          </div>
+          <div className='flex justify-center '>
+            <button className='m-4 py-3 px-14 text-lg flex items-center text-white bg-[#b1a374] rounded-full hover:bg-[#6c613c] hover:shadow-2xl'>Rent Premiun Luxury SUVs</button>
+            <button className='m-4 py-3 px-14 text-lg flex items-center text-white bg-[#b1a374] rounded-full hover:bg-[#6c613c] hover:shadow-2xl'>Rent Sports/Muscle Cars</button>
+          </div>
+          <div className='flex justify-center '>
+            <button className='m-4 py-3 px-14 text-lg flex items-center text-white bg-[#b1a374] rounded-full hover:bg-[#6c613c] hover:shadow-2xl'>Rent Limousines</button>
+            <button className='m-4 py-3 px-14 text-lg flex items-center text-white bg-[#b1a374] rounded-full hover:bg-[#6c613c] hover:shadow-2xl'>Rent High End Luxury Cars</button>
+            <button className='m-4 py-3 px-14 text-lg flex items-center text-white bg-[#b1a374] rounded-full hover:bg-[#6c613c] hover:shadow-2xl'>Rent Vintage Cars</button>
+          </div>
+          <div className='flex justify-center '>
+            <button className='m-4 py-3 px-14 text-lg flex items-center text-white bg-[#333] rounded-full hover:bg-slate-900 hover:shadow-2xl'>Browse By Brands</button>
+            <button className='m-4 py-3 px-14 text-lg flex items-center text-white bg-[#333] rounded-full hover:bg-slate-900 hover:shadow-2xl'>Rent Browse At a Glance</button>
+          </div>
+
+          <div className='text-center mt-36'>
+            <h2 className='text-5xl font-extralight'>
+              <span className='font-medium'>Categorised</span> Luxury Cars
+            </h2>
+            <p className='text-left text-3xl font-extralight mx-80 mt-6'>
+              We know choosing a luxury car for your special event is tough<br/>
+              but we have a solution ready for you. Why not start by choosing a<br/>
+              category! We have categorised the fleet into many categories. <br/> <br/>
+
+              You may start browsing luxury cars through these categories. We<br/>
+              offer Convertibles, Sedans, SUVs, Sports, Muscle, Limousines,<br/>
+              Ultra luxury cars and Vintage cars on rent. These cars add value<br/>
+              to your ocassion, You always have the option to choose the best <br/>
+              luxury car that suites you.
+            </p>
+            <h2 className='text-5xl font-extralight mt-28'>Renting a Luxury Car</h2>
+            <p className='text-left text-3xl font-extralight mx-80 mt-6 mb-14'>
+              Luxury cars add a unique value to your ocassion. Their stylish 
+              looks and curvy designs are quite eye-catching and often leave 
+              people wondering. Luxury cars can help maintaining your status
+              symbol.
+            </p>
+          </div>
+      </div>
+
+      <div className='bg-[#efefef] '>
+            <h1 className='text-center font-extralight my-8 pt-20 text-6xl'>How it Works</h1>
+            <p className='text-center text-slate-600 font-extralight text-3xl'>You are Important to us.
+              <br/>
+              We believe in a personalised experience for your ride.
+              <br/>
+              You can always
+               <button className='text-green-500 px-2 font-light'> Contact Us </button>
+              if you need any help.
+            </p>
+
+            <div className='flex items-center justify-center mt-14'>
+              <div className='rounded-[50%] border-[2px] border-black h-[75px] w-[75px] text-center pt-1 text-[40px]  '>
+
+                1
+
+              </div>
+              <div className='bg-black w-[320px] h-[2px] ml-3 mr-3'></div>
+              <div className='rounded-[50%] border-[2px] border-black h-[75px] w-[75px] text-center pt-1 text-[40px]  '>
+
+                2
+
+              </div>
+              <div className='bg-black w-[320px] h-[2px] ml-3 mr-3'></div>
+              <div className='rounded-[50%] border-[2px] border-black h-[75px] w-[75px] text-center pt-1 text-[40px]  '>
+
+                3
+
+              </div>
+            </div>
+
+            <div className='flex justify-center text-center'>
+              <div className='mt-3 mr-20 mb-24'>
+                <h1 className='text-2xl'>
+                  Choose your Ride
+                </h1>
+                <p className='mt-4 text-gray-900 font-extralight text-lg'>
+                  We offer a wide range of vehicles that can fit all<br />
+                  your requirements.<br/>
+                  All our vehicles are Chauffeur driven.<br/>
+                  Explore <button className='font-medium'>Cars</button> /
+                  <button className='font-medium'>Cars</button> /
+                  <button className='font-medium'>Cars</button> 
+                </p>
+              </div>
+              <div className='mt-3 mr-24'>
+              <h1 className='text-2xl'>
+                  Initiate Booking Request
+                </h1>
+                <p className='mt-4 text-gray-900 font-extralight text-lg'>
+                  Initiate Booking Request by Filling out the<br/>
+                  Booking Form.<br/>
+                  <button className='font-medium'>Booking Form</button> 
+                </p>
+
+              </div>
+              <div className='mt-3 '>
+                <h1 className='text-2xl'>
+                    Get Confirmation
+                </h1>
+                <p className='mt-4 text-gray-900 font-extralight text-lg'>
+                    You shall receive your Booking Confirmation<br/>
+                    within next few hours (Upto 4 hours).<br/>
+                <button className='font-medium'>Contact Us</button>
+                </p> 
+              </div>
+            </div>
+      </div>
+
+      <div className='bg-[#b2ccd2] h-72 py-24 '>
+        <div className='justify-center flex  text-5xl'>
+          <h2 className='text-left font-semibold mx-20'>
+            Not finding what You were<br/> looking for!
+          </h2>
+          <button className='m-5 py-2 px-14 text-lg text-white border-2 border-[#333] bg-[#333] rounded-full'>
+            Go to Support
+          </button>
+        </div>
+      </div>
+
+      <div className='bg-[#073b4c] h-auto text-center'>
+        <div className='flex justify-center space-x-10'>
+          <div>
+              <button className='text-[#e6c65f] font-bold mt-10 py-5 hover:text-[#b1a374]'>
+                  Dive In
+              </button><br />
+              <button className='text-white hover:text-gray-400'>Safety</button><br />
+              <button className='text-white hover:text-gray-400'>Careers</button><br />
+              <button className='text-white hover:text-gray-400'>Partners</button><br />
+              <button className='text-white hover:text-gray-400'>About Us</button><br />
+              <button className='text-white hover:text-gray-400'>Contact Us</button><br />
+              <button className='text-white hover:text-gray-400'>Testimonials</button><br />
+              <button className='text-white hover:text-gray-400'>List Your Vehicle</button><br />
+              <button className='text-white hover:text-gray-400'>Terms And Conditions</button><br />
+
+          </div>
+          <div>
+              <button className='text-[#e6c65f] font-bold mt-10 py-5 hover:text-[#b1a374]'>
+                  Categories
+              </button><br />
+              <button className='text-white hover:text-gray-400'>Rent Luxury Sedans</button><br />
+              <button className='text-white hover:text-gray-400'>Rent Convertibles</button><br />
+              <button className='text-white hover:text-gray-400'>Rent Luxury SUVs</button><br />
+              <button className='text-white hover:text-gray-400'>Rent Premium SUVs</button><br />
+              <button className='text-white hover:text-gray-400'>Rent Muscle Cars</button><br />
+              <button className='text-white hover:text-gray-400'>Rent Vintage Cars</button><br />
+              <button className='text-white hover:text-gray-400'>Rent Ultra Luxury Cars</button><br />
+              <button className='text-white hover:text-gray-400'>Rent Standard Vehicles</button><br />
+
+          </div>
+
+          <div>
+              <button className='text-[#e6c65f] font-bold mt-10 py-5 hover:text-[#b1a374]'>
+                  Services
+              </button><br />
+              <button className='text-white hover:text-gray-400'>Wedding Cars</button><br />
+              <button className='text-white hover:text-gray-400'>Tour</button><br />
+              <button className='text-white hover:text-gray-400'>Corporate</button><br />
+              <button className='text-white hover:text-gray-400'>VIP Transport</button><br />
+              <button className='text-white hover:text-gray-400'>Personal Travel</button><br />
+              <button className='text-white hover:text-gray-400'>Celebrities Travel</button><br />
+              <button className='text-white hover:text-gray-400'>Video Shoots</button><br />
+              <button className='text-white hover:text-gray-400'>Car Decorations</button><br />
+
+          </div>
+
+          <div>
+              <button className='text-[#e6c65f] font-bold mt-10 py-5 hover:text-[#b1a374]'>
+                  Brands We Serve
+              </button><br />
+              <button className='text-white hover:text-gray-400'>Audi</button><br />
+              <button className='text-white hover:text-gray-400'>BMW</button><br />
+              <button className='text-white hover:text-gray-400'>Jaguar</button><br />
+              <button className='text-white hover:text-gray-400'>Range Rover</button><br />
+              <button className='text-white hover:text-gray-400'>Mercedes Benz</button><br />
+              <button className='text-white hover:text-gray-400'>Rolls Royce</button><br />
+              <button className='text-white hover:text-gray-400'>Bentley</button><br />
+              <button className='text-white hover:text-gray-400'>Porsche</button><br />
+
+          </div>
+
+          <div>
+              <button className='text-[#e6c65f] font-bold mt-10 py-5 hover:text-[#b1a374]'>
+                  Top Choices
+              </button><br />
+              <button className='text-white hover:text-gray-400'>Audi A3 Convertible (Red)</button><br />
+              <button className='text-white hover:text-gray-400'>Mercedes Benz GLA</button><br />
+              <button className='text-white hover:text-gray-400'>Audi A4 Sedan</button><br />
+              <button className='text-white hover:text-gray-400'>Jaguar XF Sedan</button><br />
+              <button className='text-white hover:text-gray-400'>Bentley Flying Spur</button><br />
+              <button className='text-white hover:text-gray-400'>Chrysler Limousine</button><br />
+              <button className='text-white hover:text-gray-400'>Rolls Royce Phantom</button><br />
+              <button className='text-white hover:text-gray-400'>Rolls Royce 1939 Vintage</button><br />
+
+          </div>
+        </div>
+
+        <div className='space-x-7 mt-5'>
+          <button><ImFacebook className='text-gray-400 hover:text-white text-2xl'/></button>
+          <button><BsTwitter className='text-gray-400 hover:text-white text-2xl'/></button>
+          <button><BsInstagram className='text-gray-400 hover:text-white text-2xl'/></button>
+          <button><BsYoutube className='text-gray-400 hover:text-white text-2xl'/></button>
+          <button><BsPinterest className='text-gray-400 hover:text-white text-2xl'/></button>
+        </div>
+
+        <div className='pb-16'>
+            <div className='mt-2 text-white'>
+              Services offered by <button className='text-[#b1a374] font-bold'>LUXORIDES</button>
+            </div>
+            <div className='text-white'>
+              Rent Luxury Cars | Chauffeur Driven Rides at Affordable Prices
+            </div>
+            <div className='text-white mt-8'>
+              Your privacy is valuable to us. To know how we handle your data, read our <button className='text-gray-400'>Privacy Policy</button>.
+            </div>
+        </div>
+      </div>
+
+      <div className='bg-black h-48 '>
+        <div className='bg-black h-96 text-center'>
+          <div className='flex justify-center space-x-48 py-14'>
+              <div>
+                <img src="https://luxorides.com/assets/images/luxorides-square-logo-only-solid-whitepng-400ppi-9-500x500.webp" 
+                      alt="luxorides logo"
+                      className='h-28'
+              />
+              </div>
+              <div>
+                <h2 className='text-[#82786e] font-medium text-lg'>
+                    Locations
+                </h2><br/>
+                <button className='text-gray-400 hover:text-gray-600'>Delhi</button><br />
+                <button className='text-gray-400 hover:text-gray-600'>Lucknow</button><br />
+                <button className='text-gray-400 hover:text-gray-600'>Agra</button><br />
+                <button className='text-gray-400 hover:text-gray-600'>Jaipur</button><br />
+              </div>
+              <div>
+                <h2 className='text-[#82786e] font-medium text-lg'>
+                    Delhi NCR
+                </h2><br/>
+                <button className='text-gray-400 hover:text-gray-600'>Gurgaon</button><br />
+                <button className='text-gray-400 hover:text-gray-600'>Faridabad</button><br />
+                <button className='text-gray-400 hover:text-gray-600'>Ghaziabad</button><br />
+                <button className='text-gray-400 hover:text-gray-600'>Noida</button><br />
+              </div>
+              <div>
+                <h2 className='text-[#82786e] font-medium text-lg'>
+                    Contacts
+                </h2><br/>
+                <button className='text-gray-400 hover:text-gray-600'>contact@luxorides.in</button><br />
+                <button className='text-gray-400 hover:text-gray-600 py-5 font-extralight'>+91 7818836390</button><br />
+              </div>
+          </div>
+          <div className='bg-gray-600 h-[1px] mx-36'></div>
+
+          <div className='flex justify-center space-x-96'>
+            <div className='text-left mt-5'>
+              <h2 className='text-white'>Website developed by <button className='text-gray-400 hover:text-gray-600'>Coding Scholar</button></h2>
+
+              <h2 className='text-white'>A Unit of <button className='text-[#b1a374] hover:text-[#d8ccaa]'>Umbrella Room Ventures India Pvt Ltd.</button> formally starsudt ventures</h2>
+
+              <h2 className='text-white'>@ Copyright 2021 - All Rights Reserved</h2>
+
+
+            </div>
+            <div className='space-x-7 mt-5'>
+              <button><ImFacebook className='text-gray-400 hover:text-blue-500 text-2xl'/></button>
+              <button><BsTwitter className='text-gray-400 hover:text-blue-500 text-2xl'/></button>
+              <button><BsInstagram className='text-gray-400 hover:text-pink-400 text-2xl'/></button>
+              <button><BsYoutube className='text-gray-400 hover:text-red-700 text-2xl'/></button>
+              <button><BsPinterest className='text-gray-400 hover:text-red-700 text-2xl'/></button>            
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
   )
 }

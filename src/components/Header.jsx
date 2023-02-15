@@ -28,26 +28,26 @@ export default function Header() {
           </div>
           <div>
             <ul className='flex space-x-6 ml-80'>
-                <li className={`cursor-pointer py-3 text-[#e6c65f] text-md font-semibold border-b-transparent hover:text-[#a9881c] ${matchRoute('/') }`}
+                <li className={`cursor-pointer py-3 text-[#a9881c] text-md font-semibold border-b-transparent hover:text-[#e6c65f] ${matchRoute('/') }`}
                     onClick={()=>navigate('/home')}
                 >Home </li>
-                <li className={`flex cursor-pointer py-3 text-[#e6c65f] text-md font-semibold border-b-transparent hover:text-[#a9881c] ${matchRoute('/Explore') && 'text-[#ecc84f]'}`}
+                <li className={`flex cursor-pointer py-3 text-[#a9881c] text-md font-semibold border-b-transparent hover:text-[#e6c65f] ${matchRoute('/Explore') && 'text-[#ecc84f]'}`}
                     onClick={()=>navigate('/explore')}
                 >Explore
-                <RiArrowDownSFill className='text-2xl hover:text-[#a9881c]'/>
+                <RiArrowDownSFill className='text-2xl hover:text-[#e6c65f]'/>
                 </li>
-                <li className={`flex cursor-pointer py-3 text-[#e6c65f] text-md font-semibold border-b-transparent hover:text-[#a9881c] ${matchRoute('/Locations') && 'text-[#ecc84f]'}`}
+                <li className={`flex cursor-pointer py-3 text-[#a9881c] text-md font-semibold border-b-transparent hover:text-[#e6c65f] ${matchRoute('/Locations') && 'text-[#ecc84f]'}`}
                     onClick={()=>navigate('/locations')}
                 >Locations
-                <RiArrowDownSFill className='text-2xl hover:text-[#a9881c]'/>
+                <RiArrowDownSFill className='text-2xl hover:text-[#e6c65f]'/>
                 </li>
-                <li className={`cursor-pointer py-3 text-[#e6c65f] text-md font-semibold border-b-transparent hover:text-[#a9881c] ${matchRoute('/Support') && 'text-[#ecc84f]'}`}
+                <li className={`cursor-pointer py-3 text-[#a9881c] text-md font-semibold border-b-transparent hover:text-[#e6c65f] ${matchRoute('/Support') && 'text-[#ecc84f]'}`}
                     onClick={()=>navigate('/support')}
                 >Support </li>
-                <li className={`flex cursor-pointer py-3 text-[#e6c65f] text-md font-semibold border-b-transparent hover:text-[#a9881c] ${matchRoute('/More') && 'text-[#ecc84f]'}`}
+                <li className={`flex cursor-pointer py-3 text-[#a9881c] text-md font-semibold border-b-transparent hover:text-[#e6c65f] ${matchRoute('/More') && 'text-[#ecc84f]'}`}
                     onClick={()=>navigate('/more')}
                 >More
-                <RiArrowDownSFill className='text-2xl hover:text-[#a9881c]'/>
+                <RiArrowDownSFill className='text-2xl hover:text-[#e6c65f]'/>
                 </li>
                 
             </ul>

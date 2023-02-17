@@ -6,7 +6,10 @@ export default function Explore() {
   return (
     <section>
       <div>
-        <img src='garage.jpg' alt='GarageImg'/>
+        <img src='garage.jpg' alt='GarageImg' className='relative'/>
+        <div className='absolute top-[50%] right-[39%]'>
+          <h2 className='text-7xl text-white font-semibold'>Explore <span className='font-thin'>Cars</span></h2>
+        </div>
       </div>
 
       <div >
@@ -132,7 +135,7 @@ export default function Explore() {
           <h2 className='text-left font-semibold mx-20'>
             Not finding what You were<br/> looking for!
           </h2>
-          <button className='m-5 py-2 px-14 text-lg text-white border-2 border-[#333] bg-[#333] rounded-full'>
+          <button className='m-5 py-2 px-14 text-lg text-white border-2 border-[#333] bg-[#333] rounded-full hover:shadow-2xl'>
             Go to Support
           </button>
         </div>

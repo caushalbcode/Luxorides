@@ -10,8 +10,10 @@ export default function Support() {
   return (
     <section>
       <div>
-        <div>
-          <div className='bg-[#465052] py-14 my-16 mx-40'>
+        <img src="supportoffice.jpg" alt="supportimg"
+         className='relative'
+         />
+          <div className='bg-[#465052] absolute top-56 right-24 py-14 my-16 mx-40'>
             <h2 className='mx-10 text-6xl font-medium text-white'>
               Your problem is ours!
             </h2>
@@ -22,7 +24,6 @@ export default function Support() {
               Feel free to reach us out. We are available anytime in 24 hours a day, 7 days a Week.
             </p>
           </div>
-        </div>
       </div>
 
       
@@ -30,7 +31,7 @@ export default function Support() {
         <div className='justify-between flex items-center' >
 
           <div className='my-20 ml-72 '>
-            <button className='py-4 px-12 text-white bg-green-500 rounded-full font-semibold flex items-center hover:bg-green-700'>
+            <button className='py-4 px-12 text-white bg-green-500 rounded-full font-semibold flex items-center hover:bg-green-700 hover:shadow-2xl'>
               <ImWhatsapp className='mr-4 text-3xl'/>
               WhatsApp Us
             </button>
@@ -51,7 +52,7 @@ export default function Support() {
         <div className='justify-between flex items-center' >
 
           <div className='my-20 ml-72 '>
-            <button className='py-4 px-16 text-[#232323] bg-yellow-300 rounded-full font-semibold flex items-center hover:bg-yellow-400'>
+            <button className='py-4 px-16 text-[#232323] bg-yellow-300 rounded-full font-semibold flex items-center hover:bg-yellow-400 hover:shadow-2xl'>
               <MdEmail className='mr-4 text-3xl'/>
               E-Mail Us
             </button>
@@ -234,7 +235,7 @@ export default function Support() {
           <h2 className='text-left font-semibold py-5 mr-72'>
           Lets Start Over!
           </h2>
-          <button className='m-5 py-2 px-12 text-lg text-white border-2 border-[#333] bg-[#333] rounded-full'>
+          <button className='m-5 py-2 px-12 text-lg text-white border-2 border-[#333] bg-[#333] rounded-full hover:shadow-2xl'>
             Go to Home
           </button>
         </div>

@@ -6,7 +6,12 @@ export default function Home() {
   return (
     <section>
       <div>
-        <img src="./tajmahal.jpg" alt="The Taj" />
+        <img src="./tajmahal.jpg" alt="The Taj" className='relative' />
+        <div className='absolute top-52 right-44 text-right animate-bounce'>
+          <h2 className='text-7xl text-[#c1c1c1] font-thin'>Rent</h2>
+          <h2 className='text-7xl text-[#c1c1c1] font-semibold'>Luxury Cars</h2>
+          <h2 className='text-7xl text-[#c1c1c1] font-thin'>for <span className='font-semibold'>Agra</span></h2>
+        </div>
 
       </div>
 
@@ -25,15 +30,15 @@ export default function Home() {
               </div>
               
               <div className='flex justify-center mt-6'>
-                      <button className='m-4 py-3 px-16 text-gray-600 border-2 border-black bg-white rounded-full font-light hover:bg-black hover:text-white' 
+                      <button className='m-4 py-3 px-16 text-gray-600 border-2 border-black bg-white rounded-full font-light hover:bg-black hover:text-white hover:shadow-2xl' 
                       > 
                         Explore Brands
                       </button>
-                      <button className='m-4 py-3 px-16 text-gray-600 border-2 border-black bg-white rounded-full font-light hover:bg-black hover:text-white'
+                      <button className='m-4 py-3 px-16 text-gray-600 border-2 border-black bg-white rounded-full font-light hover:bg-black hover:text-white hover:shadow-2xl'
                       >
                         Explore Car
                       </button>
-                      <button className='m-4 py-3 px-16 text-gray-600 border-2 border-black bg-white rounded-full font-light hover:bg-black hover:text-white '
+                      <button className='m-4 py-3 px-16 text-gray-600 border-2 border-black bg-white rounded-full font-light hover:bg-black hover:text-white hover:shadow-2xl'
                       > 
                         Explore Services
                       </button>
@@ -141,7 +146,7 @@ export default function Home() {
           <h2 className='text-left font-bold mx-20'>
             Not finding what You were<br/> looking for!
           </h2>
-          <button className='m-5 py-3 px-14 text-lg text-white border-2 border-black bg-black rounded-full'>
+          <button className='m-5 py-3 px-14 text-lg text-white border-2 border-black bg-black rounded-full hover:shadow-2xl'>
             Go to Support
           </button>
         </div>

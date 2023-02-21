@@ -117,12 +117,9 @@ export default function More() {
             </button>
             <h2 className='m-5 mx-44 font-bold py-5 '>
             Lets Start Over!
-            </h2>
-            
+            </h2>  
           </div>
         </div>
-
-
       </div>  
 
       <div className='bg-[#073b4c] h-auto text-center'>

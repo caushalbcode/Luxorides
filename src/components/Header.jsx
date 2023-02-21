@@ -31,10 +31,29 @@ export default function Header() {
                 <li className={`cursor-pointer py-3 text-[#bfa54d] text-md font-medium border-b-transparent hover:text-[#e6c65f] ${matchRoute('/') }`}
                     onClick={()=>navigate('/home')}
                 >Home </li>
-                <li className={`flex cursor-pointer py-3  text-[#bfa54d] text-md font-medium border-b-transparent hover:text-[#e6c65f] ${matchRoute('/Explore') && 'text-[#ecc84f]'}`}
-                    onClick={()=>navigate('/explore')}
+                <li className={`group relative flex cursor-pointer py-3  text-[#bfa54d] text-md font-medium border-b-transparent hover:text-[#e6c65f] && 'text-[#ecc84f]'}`}
+              
                 >Explore
                 <RiArrowDownSFill className='text-2xl hover:text-[#e6c65f]'/>
+                <div className='hidden group-hover:block absolute w-[230px] h-[190px] top-[100%]  bg-[#073b4c] text-center'>
+                  <li className={`text-[#bfa54d] mt-4 text-md font-medium border-b-transparent hover:text-[#e6c65f] ${matchRoute('/Explore')}  `}
+                  onClick={()=>navigate('/Explore')}
+                  >
+                    Explore by Categories
+                  </li>
+                  <li className={`text-[#bfa54d] mt-4 text-md font-medium border-b-transparent hover:text-[#e6c65f] ${matchRoute('/Services')}  `}
+                  onClick={()=>navigate('/Services')}>
+                    Explore by Services
+                  </li>
+                  <li className={`text-[#bfa54d] mt-4 text-md font-medium border-b-transparent hover:text-[#e6c65f] ${matchRoute('/Brands')}  `}
+                  onClick={()=>navigate('/Brands')}>
+                    Explore by Brands
+                  </li>
+                  <li className={`text-[#bfa54d] mt-4 text-md font-medium border-b-transparent hover:text-[#e6c65f] ${matchRoute('/Oneview')}  `}
+                  onClick={()=>navigate('/Oneview')}>
+                    Explore in One-View
+                  </li>
+                </div>
                 </li>
                 <li className={`flex cursor-pointer py-3  text-[#bfa54d] text-md font-medium border-b-transparent hover:text-[#e6c65f] ${matchRoute('/Locations') && 'text-[#ecc84f]'}`}
                     onClick={()=>navigate('/locations')}

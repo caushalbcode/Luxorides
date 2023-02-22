@@ -1,7 +1,6 @@
 import React from 'react'
 import {useLocation,useNavigate} from 'react-router-dom'
 import {ImWhatsapp} from 'react-icons/im'
-import {TbBulb} from 'react-icons/tb'
 import {FiPhone} from 'react-icons/fi'
 import {RiArrowDownSFill} from 'react-icons/ri'
 
@@ -74,10 +73,10 @@ export default function Header() {
 
           <div className='flex space-x-4'>
                 <div>
-                  <button className='py-2 px-5 text-gray-600 bg-white rounded-full font-semibold flex items-center hover:bg-gray-300' 
+                  <button className='py-2 px-5 text-white border-white border-2 bg-[#073b4c] rounded-full font-semibold flex items-center hover:bg-white hover:text-black'
                   >
-                    <TbBulb  className='mr-2'/>
-                    BuzZ
+                    <FiPhone className='mr-2'/>
+                    Call Us
                   </button>
                 </div>
                 <div>
@@ -90,8 +89,7 @@ export default function Header() {
                 <div>
                   <button className='py-2 px-5 text-white border-white border-2 bg-[#073b4c] rounded-full font-semibold flex items-center hover:bg-white hover:text-black'
                   >
-                    <FiPhone className='mr-2'/>
-                    Call Us
+                    Sign In
                   </button>
                 </div>
                 

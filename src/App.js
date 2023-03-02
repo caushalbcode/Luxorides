@@ -13,6 +13,7 @@ import Signup from './Pages/Signup'
 import Lucknow from './Pages/Lucknow'
 import Dehli from './Pages/Dehli'
 import Jaipur from './Pages/Jaipur'
+import Agra from './Pages/Agra'
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="/Dehli" element={<Dehli />} />
           <Route path="/Lucknow" element={<Lucknow />} />
           <Route path="/Jaipur" element={<Jaipur />} />
+          <Route path="/Agra" element={<Agra />} />
         </Routes>
       </Router>
     </>

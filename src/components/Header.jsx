@@ -64,8 +64,8 @@ export default function Header() {
                   >
                     Dehli
                   </li>
-                  <li className={`text-[#bfa54d] mt-4 text-md font-medium border-b-transparent hover:text-[#e6c65f] ${matchRoute('/Home')}  `}
-                  onClick={()=>navigate('/Home')}>
+                  <li className={`text-[#bfa54d] mt-4 text-md font-medium border-b-transparent hover:text-[#e6c65f] ${matchRoute('/Agra')}  `}
+                  onClick={()=>navigate('/Agra')}>
                     Agra 
                   </li>
                   <li className={`text-[#bfa54d] mt-4 text-md font-medium border-b-transparent hover:text-[#e6c65f] ${matchRoute('/Jaipur')}  `}
@@ -112,10 +112,7 @@ export default function Header() {
                     Sign In
                   </button>
                 </div>
-                
-        
           </div>
-                                                                                                  
         </header>
     </div>
   )

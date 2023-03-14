@@ -284,7 +284,6 @@ export default function Home() {
                 <button className='text-gray-400 hover:text-gray-600'>contact@luxorides.in</button><br />
                 <button className='text-gray-400 hover:text-gray-600 py-5 font-extralight'>+91 7818836390</button><br />
               </div>
-
           </div>
           <div className='bg-gray-600 h-[1px] mx-36'></div>
 
@@ -305,10 +304,8 @@ export default function Home() {
               <button><BsYoutube className='text-gray-400 hover:text-red-700 text-2xl'/></button>
               <button><BsPinterest className='text-gray-400 hover:text-red-700 text-2xl'/></button>            
             </div>
+          </div>
         </div>
-
-      </div>
-
       </div>
     </section>
   

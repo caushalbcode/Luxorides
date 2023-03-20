@@ -25,7 +25,7 @@ export default function Signin() {
                     />
                     <div className='flex justify-between mx-14 mt-2'>
                         <p className='font-thin text-gray-300'>Don't have an Account?<Link to='/signup' className='font-semibold text-red-500'>Creat One</Link></p>
-                        <Link className='font-semibold text-blue-600'>Forgot Password?</Link>
+                        <Link to='/forgotpassword' className='font-semibold text-blue-600'>Forgot Password?</Link>
                     </div>
                     <button className='text-white w-[80%] mx-14 my-5 py-2 rounded-md bg-[#073b4c]'>SIGN IN</button>
 

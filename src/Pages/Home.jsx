@@ -13,6 +13,7 @@ export default function Home() {
             return true
         }
     }
+
   return (    
     <section>
         <div>
@@ -55,19 +56,19 @@ export default function Home() {
               <div className='flex justify-center space-x-6 mt-24'>
                 <div className='text-center shadow-2xl'>
                   <img src="https://www.luxorides.com/assets/images/luxorides-covid-precautions-9.webp"
-                  alt='covid' className='w-[350px] cursor-pointer'/>
+                  alt='covid' className={`w-[350px] cursor-pointer ${matchRoute('/Covid')}`} onClick={()=>navigate('/Covid')}/>
                   <h2 className='text-lg font-semibold mt-5 '>Regularly Cleaned and Sanitised</h2>
                   <p className='text-lg text-gray-600 mt-3 pb-8'>All our vehicles are regularly cleaned<br/> and sanitised for your safer and<br/> hygienic ride.</p>
                 </div>
                 <div className='text-center shadow-2xl'>
                   <img src="https://www.luxorides.com/assets/images/luxorides-covid-precautions-10.webp"
-                  alt='covid' className='w-[350px]'/>
+                  alt='covid' className={`w-[350px] ${matchRoute('/Covid')}`} onClick={()=>navigate('/Covid')}/>
                   <h2 className='text-lg font-semibold mt-5'>Minimal / No Touch Policy</h2>
                   <p className='text-lg text-gray-600 mt-3 pb-8'>We follow a minimum / no touch<br/> policy to ensure that you are safe<br/> throughout your rental.</p>
                 </div>
                 <div className='text-center shadow-2xl'>
                   <img src="https://www.luxorides.com/assets/images/6vh99bihqa-1.webp"
-                  alt='covid' className='w-[350px]'/>
+                  alt='covid' className={`w-[350px] ${matchRoute('/Covid')}`} onClick={()=>navigate('/Covid')}/>
                   <h2 className='text-lg font-semibold mt-5'>Precautionary Tests</h2>
                   <p className='text-lg text-gray-600 mt-3 pb-8'>Our staff undergoes a regular<br/> precautionary thermal screening for<br/> better safety.</p>
                 </div>

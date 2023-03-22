@@ -1,7 +1,7 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { ImFacebook } from 'react-icons/im'
-import {BsInstagram, BsYoutube, BsPinterest, BsTwitter} from 'react-icons/bs'
+import {BsInstagram, BsYoutube, BsPinterest, BsTwitter, BsChevronRight, BsChevronLeft} from 'react-icons/bs'
 
 
 export default function Home() {
@@ -13,15 +13,41 @@ export default function Home() {
             return true
         }
     }
-
+    const slides=[
+        {url:'home.jpg'},
+        {url:'home2.jpg'},
+        {url:'home3.jpg'},
+        {url:'home4.jpg'},
+        {url:'home5.jpg'}
+    ]
+    const [Currentstate,setCurrentState]=useState(0)
+    
+      const prevslide=()=>{
+        const isfirstdlide=Currentstate===0;
+        const newindex= isfirstdlide ? slides.length-1: Currentstate-1;
+        setCurrentState(newindex);
+      };
+        const nextslide=()=>{
+            const isfirstdlide=Currentstate===slides.length-1;
+            const newindex= isfirstdlide ? 0: Currentstate+1;
+            setCurrentState(newindex);
+        };
+    
   return (    
     <section>
-        <div>
-            <img src="home.jpg" alt="Home img" className='relative' />
-            <div className='absolute top-[75%] right-48'>
-              <h1 className='text-6xl text-white font-thin'>Your <span className='font-semibold'>Luxury Car Rental</span> options just got better. </h1>
+        <div className='w-full h-[650px] relative m-0 '>
+                <div 
+                    style={{backgroundImage: `url(${slides[Currentstate].url})`}}
+                    className='w-full h-full bg-center bg-cover duration-100'>
+                </div>
             </div>
-        </div>
+            <div className='absolute top-[400px] border-white border-2 rounded-full translate-y-[-50%] left-5 p-4 text-white bg-transparents cursor-pointer'>
+                <BsChevronLeft onClick={prevslide} size={40}/>
+            </div>
+
+            <div className='absolute top-[400px] border-white border-2 rounded-full translate-y-[-50%] right-5 p-4 text-white bg-transparent cursor-pointer'>
+                <BsChevronRight onClick={nextslide} size={40}/>
+            </div>
         <div>
           <img src="https://luxorides.com/assets/images/1970468.webp" alt="home" className='relative h-4/6' />
           <div className='absolute top-[800px] mx-80 text-center'>

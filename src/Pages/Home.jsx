@@ -146,7 +146,7 @@ export default function Home() {
             </div>
 
             <div className='flex justify-center mt-28 text-center space-x-7'>
-              <button className='shadow-2xl'>
+              <button className={`shadow-2xl ${matchRoute('/Audi')}`} onClick={()=>navigate('/Audi')}>
                 <img src="https://luxorides.com/assets/images/audi-logo-for-luxorides-1x1.webp" 
                 alt="audiimg" className='w-[250px]'/>
                 <h2 className='font-light my-3'>Rent an <span className='font-semibold'>Audi</span></h2>

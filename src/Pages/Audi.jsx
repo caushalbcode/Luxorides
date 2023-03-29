@@ -2,77 +2,137 @@ import React from 'react'
 import { ImFacebook } from 'react-icons/im'
 import {BsInstagram, BsYoutube, BsPinterest, BsTwitter} from 'react-icons/bs'
 
-export default function Agra() {
+export default function Audi() {
   return (
     <section>
-      <div>
-        <img src="./tajmahal.jpg" alt="The Taj" className='relative' />
-        <div className='absolute top-52 right-44 text-right animate-bounce'>
-          <h2 className='text-7xl text-[#c1c1c1] font-thin'>Rent</h2>
-          <h2 className='text-7xl text-[#c1c1c1] font-semibold'>Luxury Cars</h2>
-          <h2 className='text-7xl text-[#c1c1c1] font-thin'>for <span className='font-semibold'>Agra</span></h2>
+        <div>
+            <img src="audi.jpg" alt="audi" className='relative'/>
+            <div className='absolute top-[360px] right-[35%]'>
+                <h1 className='text-center text-white text-7xl font-medium'>Rent an Audi</h1>
+                <h2 className='my-20 mx-10 text-black text-4xl font-medium'>Luxury Personified</h2>
+            </div>
         </div>
-
-      </div>
-
-      
-          <div>
-                  <p className='text-center text-7xl mt-24 font-light'>
-                    Planning To Rent
-                  </p>
-                  <p className='text-center text-7xl mt-3 font-light'>
-                    a Luxury Car for <span className='font-medium'>Agra?</span>
-                  </p>
-                  <div>
-                  <p className='text-right text-5xl mt-6 mr-72 font-extralight'>
-                    We will help.
-                  </p>
-              </div>
-              
-              <div className='flex justify-center mt-6'>
-                      <button className='m-4 py-3 px-16 text-gray-600 border-2 border-black bg-white rounded-full font-light hover:bg-black hover:text-white hover:shadow-2xl' 
-                      > 
-                        Explore Brands
-                      </button>
-                      <button className='m-4 py-3 px-16 text-gray-600 border-2 border-black bg-white rounded-full font-light hover:bg-black hover:text-white hover:shadow-2xl'
-                      >
-                        Explore Car
-                      </button>
-                      <button className='m-4 py-3 px-16 text-gray-600 border-2 border-black bg-white rounded-full font-light hover:bg-black hover:text-white hover:shadow-2xl'
-                      > 
-                        Explore Services
-                      </button>
-              </div>
+        <div>
+          <h1 className='my-32 text-7xl text-black font-semibold text-center'>Convertibles <span className='font-extralight'>from</span> Audi</h1>
+          <div className='flex justify-between'>
+            <div className='mx-20'>
+              <img src="https://www.luxorides.com/assets/images/audi-a3-cabriolet-rs-25000-1920x1080.webp" alt="audi" className='w-[1100px] rounded-lg shadow-2xl' />
+            </div>
+            <div className='justify-center mr-20 w-11/12'>
+              <h1 className='text-4xl font-light text-center mt-16'>Rent Audi A3 Cabriolet (White)</h1>
+              <p className='text-center text-xl font-thin my-4'>
+                The Audi A3 Cabriolet combines elegant lightness<br/> 
+                with dynamically acting proportions. The standard,<br/>
+                fully-automated fabric top can be<br/>
+                opened up.
+              </p>
+            </div>
           </div>
-              
-          <div className='mt-60' >
-            <p className='text-center text-5xl font-light'>
-              Renting a luxury car in <span className='font-medium'>Agra</span>
-            </p>
-            <p className='text-center mt-5 text-3xl font-extralight my-16'>
-              Renting a luxury car in a city like Agra (Delhi NCR) is much of a <br/>
-              hurdle unless you arrive at the right place to the right people. In <br/>
-              this case, You are at the correct place.<br/>
-                <span className='font-medium'>Luxorides</span> offers you a wide variety of luxury cars like 
-                  <button className='text-green-500 font-light px-2'>Audi</button>,
-                    <br/>
-                  <button className='text-green-500 font-light'>Mercedes</button>,
-                  <button className='text-green-500 font-light'>BMW</button>,
-                  <button className='text-green-500 font-light'>Jaguar</button>,
-                  <button className='text-green-500 font-light'>Range Rover</button>,
-                  <button className='text-green-500 font-light'>Bentley</button>,
-                  <button className='text-green-500 font-light'>Porsche</button>,
-                  <button className='text-green-500 font-light'>Rolls Royce</button>,
-                    <br/>
-                  <button className='text-green-500 font-light'>Ferrari</button> 
-                  and 
-                  <button className='text-green-500 font-light px-2'>Vintage Cars</button> 
-                  on rent in Delhi NCR.
-            </p>
-            
+            <div className='flex my-32 justify-between'>
+              <div className='ml-32 w-11/12 '>
+                <h1 className='text-4xl font-light text-center flex mt-16'>Rent Audi A3 Cabriolet (Red)</h1>
+                <p className='text-center text-xl font-thin my-4 flex'>
+                  The Audi A3 Cabriolet. Its optional acoustic top<br/> 
+                  offers a particularly quiet driving experience.<br/> 
+                  Experience a different kind of charm, sitting <br/> 
+                  in or standing up.
+                </p>
+              </div>
+              <div className='mx-20 items-center'>
+                <img src="https://luxorides.com/assets/images/audi-a3-cabriolet-rs-25000-luxorides-luxury-car-rentals-for-wedding-corporate-personal-delhi-noida-gurgaon-ghaziabad-2-1016x635.webp" alt="audi red" className='w-[1200px] h-5/6 rounded-lg shadow-2xl '/>
+              </div>
+            </div>
+        </div>
+        <div>
+          <h1 className='my-32 text-7xl text-black font-semibold text-center'>Sedans <span className='font-extralight'>from</span> Audi</h1>
+          <div className='flex justify-between space-x-2 mx-20'>
+            <img src="audiA4.webp" alt="auto" className='w-[31%]  rounded-lg'/>
+            <img src="audi A6.webp" alt="auto2" className='w-[31%] ml-20 rounded-lg'/>
+            <img src="audiA8.webp" alt="auto3" className='w-[31%] ml-20 rounded-lg'/>
           </div>
-
-          <div className='bg-[#efefef] '>
+          <div className='flex justify-between space-x-2'>
+            <div className='mx-20'>
+              <h1 className='text-3xl my-6 font-semibold text-center'>Rent Audi A4 Sedan</h1>
+              <p className='font-thin text-center'>
+                Design and technology that lead the way.<br/> 
+                Sporty and pioneering. The Audi A4, Progress<br/> 
+                is Intense.<br/> <br/>
+                Maintain the class.
+              </p>
+            </div>
+            <div className='justify-center'>
+              <h1 className='text-3xl my-6 font-semibold text-center'>Rent Audi A6 Sedan</h1>
+              <p className='font-thin text-center'>
+                Fascination comes through in many facets.<br/> 
+                Innovative technologies. Progressive design.<br/> 
+                And a wide range of equipments. The Audi A6<br/> 
+                provides you all with the comfort that you can<br/> 
+                hit the road with.
+              </p>
+            </div>
+            <div className='mx-16'>
+              <h1 className='text-3xl my-6 font-semibold mx-32 text-center'>Rent Audi A8 L Sedan</h1>
+              <p className='font-thin text-center mx-16'>
+                A design that takes elegance and dynamics to<br/> 
+                new level, with numerous assistance systems,<br/> 
+                a new operating concept and above all more<br/> 
+                space. Configure your own space in the back,<br/> 
+                more flexible and comfortable Audi A8 L.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h1 className='my-32 text-7xl text-black font-semibold text-center'>SUVs <span className='font-extralight'>from</span> Audi</h1>
+          <div className='flex justify-between space-x-2 mx-16'>
+            <img src="https://luxorides.com/assets/images/audi-q3-luxorides-luxury-car-rentals-for-wedding-corporate-personal-delhi-noida-gurgaon-ghaziabad-3-800x716.webp" alt="kfh" className='w-[30%] ml-20 rounded-lg'/>
+            <img src="https://luxorides.com/assets/images/audi-q5-rs20000-luxorides-luxury-car-rentals-for-wedding-corporate-personal-delhi-noida-gurgaon-ghaziabad-1016x832.webp" alt="kgf" className='w-[30%] ml-20 rounded-lg'/>
+            <img src="https://luxorides.com/assets/images/audi-q7-side-luxorides-luxury-car-rentals-for-wedding-corporate-personal-delhi-noida-gurgaon-ghaziabad-874x762.webp" alt="kdf" className='w-[30%] ml-20 rounded-lg'/>
+          </div>
+          <div className='flex justify-between'>
+            <div>
+              <h1 className='text-3xl my-6 font-semibold mx-32 text-center'>Rent Audi Q3 SUV</h1>
+              <p className='font-thin text-center mx-16'>
+               Think about mobility. Then multiply it by today's <br/> 
+               world. A character that puts self-confidence in <br/> 
+               a class of its own. The Audi Q3.
+              </p>
+            </div>
+            <div>
+              <h1 className='text-3xl my-6 font-semibold mx-32 text-center'>Rent Audi Q5 SUV</h1>
+              <p className='font-thin text-center mx-16'>
+                The SUV for a new generation. Convincing<br/> 
+                without being persuasive. Sportive without<br/> 
+                being unreasonable. Efficient driving pleasure.
+              </p>
+            </div>
+            <div>
+              <h1 className='text-3xl my-6 font-semibold mx-32 text-center'>Rent Audi Q7 SUV</h1>
+              <p className='font-thin text-center mx-16'>
+                Ultimate control and a record that stands<br/> 
+                unbeaten - the legendary quattro and the Audi<br/> 
+                Q7 are ready to dominate the elements.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h1 className='mt-32 mb-6 text-6xl text-black font-semibold text-center'> <span className='font-extralight'>About </span> Audi</h1>
+          <p className='text-[18px] font-thin text-center '>
+            Audi is a german luxury car manufacturing company, fully owned by the Volkswagen<br/> 
+            Group. Through the ages, Audi has been the essence of luxury and splendour. Audi <br/>
+            is built to perfection, for the modern urbanite. Nearly every model of this luxury<br/> 
+            car brand is a killer combo of technology, impeccable German craftsmanship, and<br/> powerful engine specs. It is best-known for exuding opulence, and yet a sporty look<br/> featuring different exterior colors.
+          </p>
+          <h1 className='mt-24 mb-6 text-6xl font-extralight text-black text-center'>Renting an <span className='font-semibold'>Audi</span></h1>
+          <h3 className='text-3xl font-extralight text-left ml-96'>Experience the Audi aura through Luxorides</h3>
+          <p className='text-[18px] my-5 font-extralight text-left mx-96'>
+            Luxorides has delivered the best transit options in The Delhi NCR and North India since<br/> a long time. Being a trusted name in the chauffeur-driven transportation service, we<br/> offer a flawless and hassle-free experience of riding in your very own Audi. Hire your<br/> choice of luxury ride for any event; whether it be a wedding, a corporate, or a personal<br/> need. We are partnered with legitimate and trusted car-owners & vendors for<br/> facilitating your dream car.<br/>
+            <br/>
+            Place an appointment with us and rent an Audi of your choice. Come, be a part of our<br/> growing community. Allow Luxorides to give you an experience of a lifetime!
+          </p>
+        </div>
+        <div className='bg-[#efefef] '>
             <h1 className='text-center font-extralight my-8 pt-20 text-6xl'>How it Works</h1>
             <p className='text-center text-slate-600 font-extralight text-3xl'>You are Important to us.
               <br/>
@@ -139,7 +199,7 @@ export default function Agra() {
                 </p> 
               </div>
             </div>
-      </div>
+        </div>
 
       <div className='bg-[#b2ccd2] h-auto py-24 '>
         <div className='justify-center flex  text-5xl'>
@@ -308,6 +368,5 @@ export default function Agra() {
         </div>
       </div>
     </section>
-  
   )
 }

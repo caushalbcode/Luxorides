@@ -16,6 +16,7 @@ import Jaipur from './Pages/Jaipur'
 import Agra from './Pages/Agra'
 import Forgotpassword from './Pages/Forgotpassword'
 import Covid from './Pages/Covid'
+import Audi from './Pages/Audi'
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
           <Route path="/Agra" element={<Agra />} />
           <Route path="/Forgotpassword" element={<Forgotpassword />} />
           <Route path="/Covid" element={<Covid />} />
+          <Route path="/Audi" element={<Audi />} />
         </Routes>
       </Router>
     </>

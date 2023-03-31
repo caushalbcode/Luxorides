@@ -1,5 +1,5 @@
 import React from 'react'
-import { ImFacebook } from 'react-icons/im'
+import { ImFacebook,ImWhatsapp } from 'react-icons/im'
 import {BsInstagram, BsYoutube, BsPinterest, BsTwitter} from 'react-icons/bs'
 
 export default function Audi() {
@@ -19,13 +19,17 @@ export default function Audi() {
               <img src="https://www.luxorides.com/assets/images/audi-a3-cabriolet-rs-25000-1920x1080.webp" alt="audi" className='w-[1100px] rounded-lg shadow-2xl' />
             </div>
             <div className='justify-center mr-20 w-11/12'>
-              <h1 className='text-4xl font-light text-center mt-16'>Rent Audi A3 Cabriolet (White)</h1>
+              <h1 className='text-4xl font-light text-center mt-12'>Rent Audi A3 Cabriolet (White)</h1>
               <p className='text-center text-xl font-thin my-4'>
                 The Audi A3 Cabriolet combines elegant lightness<br/> 
                 with dynamically acting proportions. The standard,<br/>
                 fully-automated fabric top can be<br/>
                 opened up.
               </p>
+              <button className='text-green-700 text-lg font-semibold bg-white border-green-700 border-2 rounded-full px-12 py-3 my-6 mx-56 flex items-center hover:bg-green-400 hover:text-white hover:border-green-400 shadow-2xl'>
+                  <ImWhatsapp className='mr-1 text-2xl'/>
+                  ₹20,000/-
+              </button>
             </div>
           </div>
             <div className='flex my-32 justify-between'>
@@ -37,6 +41,10 @@ export default function Audi() {
                   Experience a different kind of charm, sitting <br/> 
                   in or standing up.
                 </p>
+                <button className='text-green-700 text-lg font-semibold bg-white border-green-700 border-2 rounded-full px-12 py-3 my-6 mx-20 flex items-center hover:bg-green-400 hover:text-white hover:border-green-400 shadow-2xl'>
+                  <ImWhatsapp className='mr-1 text-2xl'/>
+                  ₹20,000/-
+                </button>
               </div>
               <div className='mx-20 items-center'>
                 <img src="https://luxorides.com/assets/images/audi-a3-cabriolet-rs-25000-luxorides-luxury-car-rentals-for-wedding-corporate-personal-delhi-noida-gurgaon-ghaziabad-2-1016x635.webp" alt="audi red" className='w-[1200px] h-5/6 rounded-lg shadow-2xl '/>

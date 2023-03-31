@@ -152,13 +152,13 @@ export default function Home() {
                 <h2 className='font-light my-3'>Rent an <span className='font-semibold'>Audi</span></h2>
               </button>
 
-              <button className='shadow-2xl'>
+              <button className={`shadow-2xl ${matchRoute('/Bmw')}`} onClick={()=>navigate('/Bmw')}>
                 <img src="https://luxorides.com/assets/images/bmw-logo-for-luxorides-512px-1x1.webp" 
                 alt="bmwimg" className='w-[250px]'/>
                 <h2 className='font-light my-3'>Rent an <span className='font-semibold'>BMW</span></h2>
               </button>
 
-              <button className='shadow-2xl'>
+              <button className={`shadow-2xl ${matchRoute('/Mercedes')}`} onClick={()=>navigate('/Mercedes')}>
                 <img src="https://luxorides.com/assets/images/mercedes-logo-for-luxorides-512px-1x1.webp" 
                 alt="benzimg" className='w-[250px]'/>
                 <h2 className='font-light my-3'>Rent an <span className='font-semibold'>Mercedes</span></h2>

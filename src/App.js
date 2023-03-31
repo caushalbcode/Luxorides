@@ -17,6 +17,8 @@ import Agra from './Pages/Agra'
 import Forgotpassword from './Pages/Forgotpassword'
 import Covid from './Pages/Covid'
 import Audi from './Pages/Audi'
+import Bmw from './Pages/Bmw'
+import Mercedes from './Pages/Mercedes'
 
 function App() {
   return (
@@ -42,6 +44,8 @@ function App() {
           <Route path="/Forgotpassword" element={<Forgotpassword />} />
           <Route path="/Covid" element={<Covid />} />
           <Route path="/Audi" element={<Audi />} />
+          <Route path="/Bmw" element={<Bmw />} />
+          <Route path="/Mercedes" element={<Mercedes />} />
         </Routes>
       </Router>
     </>

@@ -28,7 +28,7 @@ export default function Audi() {
               </p>
               <button className='text-green-700 text-lg font-semibold bg-white border-green-700 border-2 rounded-full px-12 py-3 my-6 mx-56 flex items-center hover:bg-green-400 hover:text-white hover:border-green-400 shadow-2xl'>
                   <ImWhatsapp className='mr-1 text-2xl'/>
-                  ₹20,000/-
+                  ₹31,000/-
               </button>
             </div>
           </div>
@@ -43,7 +43,7 @@ export default function Audi() {
                 </p>
                 <button className='text-green-700 text-lg font-semibold bg-white border-green-700 border-2 rounded-full px-12 py-3 my-6 mx-20 flex items-center hover:bg-green-400 hover:text-white hover:border-green-400 shadow-2xl'>
                   <ImWhatsapp className='mr-1 text-2xl'/>
-                  ₹20,000/-
+                  ₹31,000/-
                 </button>
               </div>
               <div className='mx-20 items-center'>
@@ -67,6 +67,10 @@ export default function Audi() {
                 is Intense.<br/> <br/>
                 Maintain the class.
               </p>
+              <button className='text-green-700 text-lg font-semibold bg-white border-green-700 border-2 rounded-full px-12 py-3 my-6 mx-20 flex items-center hover:bg-green-400 hover:text-white hover:border-green-400 shadow-2xl'>
+                  <ImWhatsapp className='mr-1 text-2xl'/>
+                  ₹15,000/-
+              </button>
             </div>
             <div className='justify-center'>
               <h1 className='text-3xl my-6 font-semibold text-center'>Rent Audi A6 Sedan</h1>
@@ -77,6 +81,10 @@ export default function Audi() {
                 provides you all with the comfort that you can<br/> 
                 hit the road with.
               </p>
+              <button className='text-green-700 text-lg font-semibold bg-white border-green-700 border-2 rounded-full px-12 py-3 my-6 mx-20 flex items-center hover:bg-green-400 hover:text-white hover:border-green-400 shadow-2xl'>
+                  <ImWhatsapp className='mr-1 text-2xl'/>
+                  ₹25,000/-
+              </button>
             </div>
             <div className='mx-16'>
               <h1 className='text-3xl my-6 font-semibold mx-32 text-center'>Rent Audi A8 L Sedan</h1>
@@ -87,32 +95,44 @@ export default function Audi() {
                 space. Configure your own space in the back,<br/> 
                 more flexible and comfortable Audi A8 L.
               </p>
+              <button className='text-green-700 text-lg font-semibold bg-white border-green-700 border-2 rounded-full px-12 py-3 my-6 mx-36 flex items-center hover:bg-green-400 hover:text-white hover:border-green-400 shadow-2xl'>
+                  <ImWhatsapp className='mr-1 text-2xl'/>
+                  ₹85,000/-
+              </button>
             </div>
           </div>
         </div>
         <div>
           <h1 className='my-32 text-7xl text-black font-semibold text-center'>SUVs <span className='font-extralight'>from</span> Audi</h1>
-          <div className='flex justify-between space-x-2 mx-16'>
+          <div className='flex justify-between space-x-2 mx-10'>
             <img src="https://luxorides.com/assets/images/audi-q3-luxorides-luxury-car-rentals-for-wedding-corporate-personal-delhi-noida-gurgaon-ghaziabad-3-800x716.webp" alt="kfh" className='w-[30%] ml-20 rounded-lg'/>
             <img src="https://luxorides.com/assets/images/audi-q5-rs20000-luxorides-luxury-car-rentals-for-wedding-corporate-personal-delhi-noida-gurgaon-ghaziabad-1016x832.webp" alt="kgf" className='w-[30%] ml-20 rounded-lg'/>
             <img src="https://luxorides.com/assets/images/audi-q7-side-luxorides-luxury-car-rentals-for-wedding-corporate-personal-delhi-noida-gurgaon-ghaziabad-874x762.webp" alt="kdf" className='w-[30%] ml-20 rounded-lg'/>
           </div>
           <div className='flex justify-between'>
-            <div>
-              <h1 className='text-3xl my-6 font-semibold mx-32 text-center'>Rent Audi Q3 SUV</h1>
+            <div className='ml-20'>
+              <h1 className='text-3xl my-6 font-semibold mx-16 text-center'>Rent Audi Q3 SUV</h1>
               <p className='font-thin text-center mx-16'>
-               Think about mobility. Then multiply it by today's <br/> 
-               world. A character that puts self-confidence in <br/> 
-               a class of its own. The Audi Q3.
+               Think about mobility. Then multiply<br/> it  by
+               today's world. A character that<br/> puts 
+               self-confidence in a class of<br/> its own. The Audi Q3.
               </p>
+              <button className='text-green-700 text-lg font-semibold bg-white border-green-700 border-2 rounded-full px-12 py-3 my-6 mx-20 flex items-center hover:bg-green-400 hover:text-white hover:border-green-400 shadow-2xl'>
+                  <ImWhatsapp className='mr-1 text-2xl'/>
+                  ₹18,000/-
+              </button>
             </div>
-            <div>
-              <h1 className='text-3xl my-6 font-semibold mx-32 text-center'>Rent Audi Q5 SUV</h1>
+            <div className='ml-10'>
+              <h1 className='text-3xl my-6 font-semibold mx-20 text-center'>Rent Audi Q5 SUV</h1>
               <p className='font-thin text-center mx-16'>
                 The SUV for a new generation. Convincing<br/> 
                 without being persuasive. Sportive without<br/> 
                 being unreasonable. Efficient driving pleasure.
               </p>
+              <button className='text-green-700 text-lg font-semibold bg-white border-green-700 border-2 rounded-full px-12 py-3 my-6 mx-28 flex items-center hover:bg-green-400 hover:text-white hover:border-green-400 shadow-2xl'>
+                  <ImWhatsapp className='mr-1 text-2xl'/>
+                  ₹20,000/-
+              </button>
             </div>
             <div>
               <h1 className='text-3xl my-6 font-semibold mx-32 text-center'>Rent Audi Q7 SUV</h1>
@@ -121,6 +141,10 @@ export default function Audi() {
                 unbeaten - the legendary quattro and the Audi<br/> 
                 Q7 are ready to dominate the elements.
               </p>
+              <button className='text-green-700 text-lg font-semibold bg-white border-green-700 border-2 rounded-full px-12 py-3 my-6 mx-36 flex items-center hover:bg-green-400 hover:text-white hover:border-green-400 shadow-2xl'>
+                  <ImWhatsapp className='mr-1 text-2xl'/>
+                  ₹41,000/-
+              </button>
             </div>
           </div>
         </div>

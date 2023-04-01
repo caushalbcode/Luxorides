@@ -74,7 +74,7 @@ export default function Bmw() {
             <p className='text-lg font-extralight text-center'>
                 With new exquisite design details, the finest materials and powerful<br/> innovations, the new BMW 7 Series, delivers a new echelon of pleasure.<br/> Imagined, designed and crafted for individuals who value every moment,<br/> discover an experience inspired to drive the world.
             </p>
-            <button className='text-green-700 text-lg mx-auto mt-12 font-semibold bg-white border-green-700 border-2 rounded-full px-12 py-3 flex items-center hover:bg-green-400 hover:text-white hover:border-green-400 hover:shadow-2xl'>
+            <button className='text-black text-lg mx-auto mt-12 font-semibold bg-white border-black border-2 rounded-full px-12 py-3 flex items-center hover:bg-green-400 hover:text-white hover:border-green-400 hover:shadow-2xl'>
                     <ImWhatsapp className='mr-1 text-2xl'/>
                     ₹ 51,000/-
             </button>

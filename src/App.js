@@ -19,6 +19,7 @@ import Covid from './Pages/Covid'
 import Audi from './Pages/Audi'
 import Bmw from './Pages/Bmw'
 import Mercedes from './Pages/Mercedes'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
           <Route path="/Bmw" element={<Bmw />} />
           <Route path="/Mercedes" element={<Mercedes />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   )

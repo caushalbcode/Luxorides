@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
-import { ImFacebook } from 'react-icons/im'
-import {BsInstagram, BsYoutube, BsPinterest, BsTwitter, BsChevronRight, BsChevronLeft} from 'react-icons/bs'
+import { BsChevronRight, BsChevronLeft} from 'react-icons/bs'
 
 
 export default function Home() {
@@ -79,7 +78,7 @@ export default function Home() {
                 Luxorides is a Covid-19 ready car rental service in Delhi NCR.
               </p>
 
-              <div className='flex justify-center space-x-6 mt-24'>
+              <div className='justify-center space-x-6 mt-24'>
                 <div className='text-center shadow-2xl'>
                   <img src="https://www.luxorides.com/assets/images/luxorides-covid-precautions-9.webp"
                   alt='covid' className={`w-[350px] cursor-pointer ${matchRoute('/Covid')}`} onClick={()=>navigate('/Covid')}/>
@@ -236,7 +235,7 @@ export default function Home() {
                 <h1 className='text-2xl'>
                   Choose your Ride
                 </h1>
-                <p className='mt-4 text-gray-900 font-extralight text-lg'>
+                <p className=' mt-4 text-gray-900 font-extralight text-lg'>
                   We offer a wide range of vehicles that can fit all<br />
                   your requirements.<br/>
                   All our vehicles are Chauffeur driven.<br/>
@@ -320,161 +319,6 @@ export default function Home() {
                       </button>
             </div>  
         </div>
-        <div className='bg-[#073b4c] h-auto text-center'>
-        <div className='flex justify-center space-x-10'>
-          <div>
-              <button className='text-[#e6c65f] font-bold mt-10 py-5 hover:text-[#b1a374]'>
-                  Dive In
-              </button><br />
-              <button className='text-white hover:text-gray-400'>Safety</button><br />
-              <button className='text-white hover:text-gray-400'>Careers</button><br />
-              <button className='text-white hover:text-gray-400'>Partners</button><br />
-              <button className='text-white hover:text-gray-400'>About Us</button><br />
-              <button className='text-white hover:text-gray-400'>Contact Us</button><br />
-              <button className='text-white hover:text-gray-400'>Testimonials</button><br />
-              <button className='text-white hover:text-gray-400'>List Your Vehicle</button><br />
-              <button className='text-white hover:text-gray-400'>Terms And Conditions</button><br />
-
-          </div>
-          <div>
-              <button className='text-[#e6c65f] font-bold mt-10 py-5 hover:text-[#b1a374]'>
-                  Categories
-              </button><br />
-              <button className='text-white hover:text-gray-400'>Rent Luxury Sedans</button><br />
-              <button className='text-white hover:text-gray-400'>Rent Convertibles</button><br />
-              <button className='text-white hover:text-gray-400'>Rent Luxury SUVs</button><br />
-              <button className='text-white hover:text-gray-400'>Rent Premium SUVs</button><br />
-              <button className='text-white hover:text-gray-400'>Rent Muscle Cars</button><br />
-              <button className='text-white hover:text-gray-400'>Rent Vintage Cars</button><br />
-              <button className='text-white hover:text-gray-400'>Rent Ultra Luxury Cars</button><br />
-              <button className='text-white hover:text-gray-400'>Rent Standard Vehicles</button><br />
-
-          </div>
-
-          <div>
-              <button className='text-[#e6c65f] font-bold mt-10 py-5 hover:text-[#b1a374]'>
-                  Services
-              </button><br />
-              <button className='text-white hover:text-gray-400'>Wedding Cars</button><br />
-              <button className='text-white hover:text-gray-400'>Tour</button><br />
-              <button className='text-white hover:text-gray-400'>Corporate</button><br />
-              <button className='text-white hover:text-gray-400'>VIP Transport</button><br />
-              <button className='text-white hover:text-gray-400'>Personal Travel</button><br />
-              <button className='text-white hover:text-gray-400'>Celebrities Travel</button><br />
-              <button className='text-white hover:text-gray-400'>Video Shoots</button><br />
-              <button className='text-white hover:text-gray-400'>Car Decorations</button><br />
-
-          </div>
-
-          <div>
-              <button className='text-[#e6c65f] font-bold mt-10 py-5 hover:text-[#b1a374]'>
-                  Brands We Serve
-              </button><br />
-              <button className='text-white hover:text-gray-400'>Audi</button><br />
-              <button className='text-white hover:text-gray-400'>BMW</button><br />
-              <button className='text-white hover:text-gray-400'>Jaguar</button><br />
-              <button className='text-white hover:text-gray-400'>Range Rover</button><br />
-              <button className='text-white hover:text-gray-400'>Mercedes Benz</button><br />
-              <button className='text-white hover:text-gray-400'>Rolls Royce</button><br />
-              <button className='text-white hover:text-gray-400'>Bentley</button><br />
-              <button className='text-white hover:text-gray-400'>Porsche</button><br />
-
-          </div>
-
-          <div>
-              <button className='text-[#e6c65f] font-bold mt-10 py-5 hover:text-[#b1a374]'>
-                  Top Choices
-              </button><br />
-              <button className='text-white hover:text-gray-400'>Audi A3 Convertible (Red)</button><br />
-              <button className='text-white hover:text-gray-400'>Mercedes Benz GLA</button><br />
-              <button className='text-white hover:text-gray-400'>Audi A4 Sedan</button><br />
-              <button className='text-white hover:text-gray-400'>Jaguar XF Sedan</button><br />
-              <button className='text-white hover:text-gray-400'>Bentley Flying Spur</button><br />
-              <button className='text-white hover:text-gray-400'>Chrysler Limousine</button><br />
-              <button className='text-white hover:text-gray-400'>Rolls Royce Phantom</button><br />
-              <button className='text-white hover:text-gray-400'>Rolls Royce 1939 Vintage</button><br />
-
-          </div>
-        </div>
-
-        <div className='space-x-7 mt-5'>
-          <button><ImFacebook className='text-gray-400 hover:text-white text-2xl'/></button>
-          <button><BsTwitter className='text-gray-400 hover:text-white text-2xl'/></button>
-          <button><BsInstagram className='text-gray-400 hover:text-white text-2xl'/></button>
-          <button><BsYoutube className='text-gray-400 hover:text-white text-2xl'/></button>
-          <button><BsPinterest className='text-gray-400 hover:text-white text-2xl'/></button>
-        </div>
-
-        <div className='pb-16'>
-            <div className='mt-2 text-white'>
-              Services offered by <button className='text-[#b1a374] font-bold'>LUXORIDES</button>
-            </div>
-            <div className='text-white'>
-              Rent Luxury Cars | Chauffeur Driven Rides at Affordable Prices
-            </div>
-            <div className='text-white mt-8'>
-              Your privacy is valuable to us. To know how we handle your data, read our <button className='text-gray-400'>Privacy Policy</button>.
-            </div>
-        </div>
-      </div>
-
-      <div className='bg-black h-48 '>
-        <div className='bg-black h-96 text-center'>
-          <div className='flex justify-center space-x-48 py-14'>
-              <div>
-                <img src="https://luxorides.com/assets/images/luxorides-square-logo-only-solid-whitepng-400ppi-9-500x500.webp" 
-                      alt="luxorides logo"
-                      className='h-28'
-              />
-              </div>
-              <div>
-                <h2 className='text-[#82786e] font-medium text-lg'>
-                    Locations
-                </h2><br/>
-                <button className='text-gray-400 hover:text-gray-600'>Delhi</button><br />
-                <button className='text-gray-400 hover:text-gray-600'>Lucknow</button><br />
-                <button className='text-gray-400 hover:text-gray-600'>Agra</button><br />
-                <button className='text-gray-400 hover:text-gray-600'>Jaipur</button><br />
-              </div>
-              <div>
-                <h2 className='text-[#82786e] font-medium text-lg'>
-                    Delhi NCR
-                </h2><br/>
-                <button className='text-gray-400 hover:text-gray-600'>Gurgaon</button><br />
-                <button className='text-gray-400 hover:text-gray-600'>Faridabad</button><br />
-                <button className='text-gray-400 hover:text-gray-600'>Ghaziabad</button><br />
-                <button className='text-gray-400 hover:text-gray-600'>Noida</button><br />
-              </div>
-              <div>
-                <h2 className='text-[#82786e] font-medium text-lg'>
-                    Contacts
-                </h2><br/>
-                <button className='text-gray-400 hover:text-gray-600'>contact@luxorides.in</button><br />
-                <button className='text-gray-400 hover:text-gray-600 py-5 font-extralight'>+91 7818836390</button><br />
-              </div>
-          </div>
-          <div className='bg-gray-600 h-[1px] mx-36'></div>
-
-          <div className='flex justify-center space-x-96'>
-            <div className='text-left mt-5'>
-              <h2 className='text-white'>Website developed by <button className='text-gray-400 hover:text-gray-600'>Coding Scholar</button></h2>
-
-              <h2 className='text-white'>A Unit of <button className='text-[#b1a374] hover:text-[#d8ccaa]'>Umbrella Room Ventures India Pvt Ltd.</button> formally starsudt ventures</h2>
-
-              <h2 className='text-white'>@ Copyright 2021 - All Rights Reserved</h2>
-
-
-            </div>
-            <div className='space-x-7 mt-5'>
-              <button><ImFacebook className='text-gray-400 hover:text-blue-500 text-2xl'/></button>
-              <button><BsTwitter className='text-gray-400 hover:text-blue-500 text-2xl'/></button>
-              <button><BsInstagram className='text-gray-400 hover:text-pink-400 text-2xl'/></button>
-              <button><BsYoutube className='text-gray-400 hover:text-red-700 text-2xl'/></button>
-              <button><BsPinterest className='text-gray-400 hover:text-red-700 text-2xl'/></button>            
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
   )
 }

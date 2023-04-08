@@ -16,7 +16,7 @@ export default function Header() {
   }
   return (
     <div className='shodow-sm sticky top-0 z-50 bg-[#073b4c]'>
-        <header className='flex items-center space-x-4'>
+        <header className='flex flex-wrap items-center space-x-4 lg:mr-1 lg:w-[10]'>
           <div>
               <img
               src='https://luxorides.com/assets/images/luxorides-square-logo-only-solid-whitepng-400ppi-13-500x500.webp'
@@ -26,7 +26,7 @@ export default function Header() {
               />
           </div>
           <div>
-            <ul className='flex space-x-6 ml-80'>
+            <ul className='flex flex-wrap space-x-6 md:ml-80'>
                 <li className={`cursor-pointer py-3 text-[#bfa54d] text-md font-medium border-b-transparent hover:text-[#e6c65f] ${matchRoute('/') }`}
                     onClick={()=>navigate('/home')}
                 >Home </li>
@@ -90,7 +90,7 @@ export default function Header() {
             </ul>
           </div>
 
-          <div className='flex space-x-4'>
+          <div className='flex flex-wrap space-x-4'>
                 <div>
                   <button className='py-2 px-5 text-white border-white border-2 bg-[#073b4c] rounded-full font-semibold flex items-center hover:bg-white hover:text-black'
                   >
